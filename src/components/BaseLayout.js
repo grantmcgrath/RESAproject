@@ -10,6 +10,8 @@ export default class BaseLayout extends Component {
       <div>
         <nav id="primary_nav">
           <div className="nav_link"><NavLink to="/">Home</NavLink></div>
+          <div className="nav_link"><NavLink to="/About">About Us</NavLink></div>
+          <div className="nav_link"><NavLink to="/Contact">Contact Us</NavLink></div>
           <div className="nav_link"><NavLink to="/LogIn">Log In</NavLink></div>
           <div className="nav_link"><NavLink to="/Register">Register</NavLink></div>
         </nav>
