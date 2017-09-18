@@ -1,0 +1,8 @@
+#primary_nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_link {
+  margin: 10px;
+}

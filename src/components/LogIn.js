@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 
-class App extends Component {
+export default class LogIm extends Component {
   render() {
     return (
       <div>
-        App
+        LogIm
       </div>
     );
   }
 }
-
-export default App;
