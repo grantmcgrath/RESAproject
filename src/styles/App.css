@@ -1,8 +1,126 @@
+/*Global*/
+.b {
+  border: 1px solid black;
+}
+
+a, a:visited, a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Mobile CSS */
+
+/* Mobile Global */
+
+input {
+  width: 98%;
+  padding: 5px;
+  font-size: 15px;
+}
+
+/* Navigation Bar */
+#primary_nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #091F48;
+}
+
+.container {
+  margin: 0 auto;
+  width: auto;
+}
+
+/* Log In */
+#log_in_form {
+  width: 100%;
+  margin: 0;
+  border-radius: 0
+}
+
+/* Desktop CSS */
+@media (min-width: 413px) {
+
+/* Desktop Global */
+button {
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+input {
+  margin-bottom: 10px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 5px;
+  font-size: 15px;
+  width: auto;
+}
+
+
+/* Navigation Bar */
 #primary_nav {
   display: flex;
   flex-direction: row;
+  background-color: #091F48;
+}
+
+.nav_bar {
+  margin: 10px;
+  color: white;
 }
 
 .nav_link {
-  margin: 10px;
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Log In */
+#log_in {
+
+}
+
+#log_in_form {
+  /*border: 1px solid black;*/
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  margin-top: 30px;
+  background-color: blue;
+}
+
+
+button:hover {
+
+}
+
+.log_in_email {
+
+}
+
+.log_in_password {
+
+}
+
+/* Registration Form */
+#registration_form {
+  /*border: 1px solid black;*/
+  margin: 0 auto;
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  margin-top: 30px;
+  background-color: blue;
+}
+
+/* End Desktop */
 }
