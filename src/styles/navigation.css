@@ -1,0 +1,25 @@
+/* CSS for Navigation/BaseLayout component */
+
+/* Mobile */
+
+#primary_nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #091F48;
+}
+
+.container {
+  margin: 0 auto;
+  width: auto;
+}
+
+/* Desktop */
+@media (min-width: 415px) {
+
+  #primary_nav {
+    flex-direction: row;
+  }
+
+
+
+}

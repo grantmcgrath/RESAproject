@@ -1,0 +1,72 @@
+/* CSS for About component */
+
+/* Mobile */
+#about_container {
+  display: flex;
+}
+
+.about_stager_img {
+  width: 100%;
+}
+
+/* Desktop */
+@media (min-width: 415px) {
+
+  #about_container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  #about_row_1 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+  }
+
+  #about_row_2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+
+  #about_row_3 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+  }
+
+  .flex_row {
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+  }
+
+  .about_stager_img {
+    width: 200px;
+  }
+
+  #project_description {
+  background-color: grey;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  }
+
+  .bio_pic {
+    width: 200px;
+    height: 200px;
+  }
+
+  .bio_info {
+    margin: 0 10px 0 10px;
+  }
+
+  #ben_pic, #grant_pic, #shontae_pic, #sim_pic {
+    width: 100px;
+    margin-left: 10px;
+  }
+
+}

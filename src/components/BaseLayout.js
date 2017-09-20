@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
 import "../styles/App.css";
+import "../styles/global.css";
+import "../styles/navigation.css";
 
 export default class BaseLayout extends Component {
   render() {
