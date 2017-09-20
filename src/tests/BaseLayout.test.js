@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from '../components/BaseLayout';
+import BaseLayout from '../components/BaseLayout';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
