@@ -31,11 +31,11 @@ input {
 }*/
 
 /* Log In */
-#log_in_form {
+/*#log_in_form {
   width: 100%;
   margin: 0;
   border-radius: 0
-}
+}*/
 
 /* About Page */
 
@@ -44,7 +44,7 @@ input {
 @media (min-width: 415px) {
 
 /* Desktop Global */
-button {
+/*button {
   border: 0;
   border-radius: 5px;
   padding: 10px;
@@ -58,7 +58,7 @@ input {
   padding: 10px 5px;
   font-size: 15px;
   width: auto;
-}
+}*/
 
 
 /* Navigation Bar */
@@ -83,12 +83,11 @@ input {
 }*/
 
 /* Log In */
-#log_in {
+/*#log_in {
 
 }
 
 #log_in_form {
-  /*border: 1px solid black;*/
   width: 30%;
   margin: 0 auto;
   border-radius: 10px;
@@ -110,11 +109,10 @@ button:hover {
 
 .log_in_password {
 
-}
+}*/
 
 /* Registration Form */
-#registration_form {
-  /*border: 1px solid black;*/
+/*#registration_form {
   margin: 0 auto;
   width: 30%;
   border-radius: 10px;
@@ -123,7 +121,7 @@ button:hover {
   padding: 20px 10px;
   margin-top: 30px;
   background-color: blue;
-}
+}*/
 
 /* About Page */
 /*#about_container {

@@ -1,0 +1,48 @@
+/* CSS for Register component */
+
+/* Mobile */
+#registration_page {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#registration_form {
+  /*border: 1px solid black;*/
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  /*margin-top: 30px;*/
+  background-color: blue;
+}
+
+
+/* Desktop */
+@media (min-width: 415px) {
+
+#registration_page {
+  padding-top: 3vh;
+}
+
+#registration_img {
+  display: flex;
+}
+
+img {
+  width: 300px;
+  align-self: center;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+}

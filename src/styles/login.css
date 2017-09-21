@@ -1,0 +1,50 @@
+/* CSS for LogIn component */
+
+/* Mobile */
+#log_in {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#log_in_form {
+  margin: 0 auto;
+  border-radius: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#login_button {
+  font-size: 6vw;
+  padding: 2vw;
+  width: 95%;;
+}
+
+/*img {
+  display: none;
+}*/
+
+input {
+  border: 1px solid black;
+  font-size: 6vw;
+  padding: 2vw;
+  width: 93%;
+}
+
+/* Desktop */
+@media (min-width: 415px) {
+#log_in {
+  width: 300px;
+  margin: 3vh auto;
+}
+
+#log_in_form {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  background-color: blue;
+}
+
+
+}
