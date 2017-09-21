@@ -7,6 +7,7 @@ export default class Register extends Component {
   render() {
     return (
       <div>
+      <p>Register with our service in order to make the most of the work that you do as a Stager. </p>
         <form id="registration_form">
           <input type="text" name="users_first_name" placeholder="First Name" className="users_first_name" />
           <input type="text" name="users_last_name" placeholder="Last Name" className="users_last_name" />
