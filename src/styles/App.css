@@ -19,7 +19,7 @@ input {
 }
 
 /* Navigation Bar */
-#primary_nav {
+/*#primary_nav {
   display: flex;
   flex-direction: column;
   background-color: #091F48;
@@ -28,7 +28,7 @@ input {
 .container {
   margin: 0 auto;
   width: auto;
-}
+}*/
 
 /* Log In */
 #log_in_form {
@@ -62,13 +62,13 @@ input {
 
 
 /* Navigation Bar */
-#primary_nav {
+/*#primary_nav {
   display: flex;
   flex-direction: row;
   background-color: #091F48;
-}
+}*/
 
-.nav_bar {
+/*.nav_bar {
   margin: 10px;
   color: white;
 }
@@ -80,7 +80,7 @@ input {
 .container {
   margin: 0 auto;
   width: 80%;
-}
+}*/
 
 /* Log In */
 #log_in {

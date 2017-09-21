@@ -1,11 +1,49 @@
 /* CSS for Navigation/BaseLayout component */
 
 /* Mobile */
+#desktop_nav {
 
-#primary_nav {
+}
+
+#mobile_nav {
   display: flex;
   flex-direction: column;
   background-color: #091F48;
+  color: white;
+}
+
+.mobile_nav_dropdown {
+
+}
+
+.hamburger_container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
 .container {
@@ -13,13 +51,40 @@
   width: auto;
 }
 
+.nav_bar {
+
+}
+
+.nav_link {
+
+}
+
 /* Desktop */
 @media (min-width: 415px) {
 
-  #primary_nav {
+  #desktop_nav {
+    display: flex;
     flex-direction: row;
+    background-color: #091F48;
   }
 
+  #mobile_nav {
 
+  }
+
+  .nav_bar {
+    margin: 10px;
+    color: white;
+
+  }
+
+  .nav_link {
+
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 80%;
+  }
 
 }
