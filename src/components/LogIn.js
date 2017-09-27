@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../styles/App.css';
 import "../styles/global.css";
 import "../styles/login.css";
+import "../images/logo_large_orange.png";
+
 
 export default class LogIn extends Component {
   render() {

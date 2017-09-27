@@ -14,6 +14,7 @@ export default class BaseLayout extends Component {
           <div className="nav_bar"><NavLink to="/" className="nav_link">Home</NavLink></div>
           <div className="nav_bar"><NavLink to="/About" className="nav_link">About Us</NavLink></div>
           <div className="nav_bar"><NavLink to="/Contact" className="nav_link">Contact Us</NavLink></div>
+          <div className="nav_bar"><NavLink to="/Account" className="nav_link">Account</NavLink></div>
           <div className="nav_bar"><NavLink to="/LogIn" className="nav_link">Log In</NavLink></div>
           <div className="nav_bar"><NavLink to="/Register" className="nav_link">Register</NavLink></div>
         </nav>
