@@ -12,8 +12,8 @@ display: none;
   color: white;
 }
 
-.mobile_nav_dropdown {
-
+.mobile_nav_button {
+  background-color: #091F48;
 }
 
 .hamburger_container {
@@ -62,19 +62,44 @@ display: none;
 /* Desktop */
 @media (min-width: 415px) {
 
+#nav_bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
   #desktop_nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #091F48;
+    width: 20%;
+    height: 100vh;
+    text-align: center;
   }
 
   #mobile_nav {
     display: none;
   }
 
-  .nav_bar {
+  #children_components {
+    width: 80%;
+  }
+
+  img {
+    margin: 10px 0;
+  }
+
+  .nav_bar, .nav_bar_lower {
     margin: 10px;
     color: white;
+
+  }
+
+  .filler {
+    height: 100%;
+  }
+
+  .nav_bar_lower {
 
   }
 

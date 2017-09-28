@@ -10,13 +10,28 @@
 
 #registration_form {
   /*border: 1px solid black;*/
-  width: 50%;
+  width: 100%;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  padding: 20px 10px;
+  padding: 20px 0;
   /*margin-top: 30px;*/
-  background-color: blue;
+}
+
+h3 {
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  border: 0;
+  font-size: 20px;
+  padding: 2vw;
+}
+
+input {
+  width: 100%;
+  padding: 2vw 0;
 }
 
 
@@ -25,14 +40,16 @@
 
 #registration_page {
   padding-top: 3vh;
+  width: auto;
 }
 
-#registration_img {
-  display: flex;
+#registration_form {
+  margin: 0 auto;
+  width: 50%;
 }
 
 img {
-  width: 300px;
+  width: 90%;
   align-self: center;
 }
 
@@ -43,6 +60,20 @@ h3 {
 form {
   display: flex;
   flex-direction: column;
+  padding: 5px;
 }
+
+input, button {
+  font-size: 20px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2vw;
+}
+
+button {
+  width: 100%;
+  padding: 2vw 0;
+}
+
 
 }

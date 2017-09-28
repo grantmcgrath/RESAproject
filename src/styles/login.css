@@ -39,12 +39,26 @@ input {
 }
 
 #log_in_form {
+  width: 300px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  padding: 20px 10px;
-  background-color: blue;
+  flex-wrap: wrap;
+  padding: 20px 0;
 }
 
+#login_button {
+  font-size: 20px;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 0;
+}
+
+.submit_clear {
+  width: 49%;
+}
 
 }
