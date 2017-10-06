@@ -39,13 +39,18 @@ input {
 @media (min-width: 415px) {
 
 #registration_page {
-  padding-top: 3vh;
-  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  background-image: url("../images/register.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #registration_form {
-  margin: 0 auto;
+  margin: 10% auto;
   width: 50%;
+  padding: 0;
 }
 
 img {
@@ -55,6 +60,8 @@ img {
 
 h3 {
   margin-top: 0;
+  color: black;
+  font-size: 30px;
 }
 
 form {
@@ -63,17 +70,12 @@ form {
   padding: 5px;
 }
 
-input, button {
+input {
   font-size: 20px;
   width: 90%;
   margin: 0 auto;
-  padding: 2vw;
+  padding: 1vw;
+  margin-bottom: 10px;
 }
-
-button {
-  width: 100%;
-  padding: 2vw 0;
-}
-
 
 }

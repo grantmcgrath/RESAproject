@@ -3,7 +3,10 @@ import React from "react";
 const ListView = ({app}) => {
   return (
     <div>
-      {app.stagersName}
+      Testing List View
+      <div>
+        <p>{app.stagersName}</p>
+      </div>
     </div>
   )
 }

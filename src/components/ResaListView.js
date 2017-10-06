@@ -15,9 +15,9 @@ class ResaListView extends Component {
 
 componentDidMount() {
   fetch("https://demo3459648.mockable.io/api")
-    .then(response => response.json())
+    .then(results => results.json())
     .then(data => {
-      console.log(data);
+      console.log(data.results);
       this.setState({records: data.results});
     })
     .catch((error) => {console.log(error);

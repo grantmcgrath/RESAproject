@@ -23,8 +23,8 @@ export default class BaseLayout extends Component {
         </nav>
         <nav id="mobile_nav">
           <div className="mobile_nav_dropdown">
-            <button onClick="mobile_nav()" className="mobile_nav_button">
-              <div className="hamburger_container" onClick="hamburger(this)">
+            <button  className="mobile_nav_button">
+              <div className="hamburger_container" >
                 <div className="bar1"></div>
                 <div className="bar1"></div>
                 <div className="bar1"></div>

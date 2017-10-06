@@ -35,7 +35,6 @@ ReactDOM.render(
       </Switch>
     </BaseLayout>
   </BrowserRouter>
-
-
-,document.getElementById('root'));
+,
+document.getElementById('root'));
 registerServiceWorker();
