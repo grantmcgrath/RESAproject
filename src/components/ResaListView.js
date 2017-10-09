@@ -32,15 +32,17 @@ componentDidMount() {
     });
     return (
       <div id="container">
+        <div className="smallStats">
+          <div className="stadium"></div>
+          <div className="stadium"></div>
+          <div className="stadium"></div>
+          <div className="stadium"></div>
+        </div>
         <div id="listView">
-          <div className="listItem">Stager's Name</div>
-          <div className="listItem">Property Addess</div>
-          <div className="listItem">Date Listed</div>
-          <div className="listItem">Date Sold</div>
-          <div className="listItem">List Price</div>
-          <div className="listItem">Sold Price</div>
-          <div className="listItem">Listing Price Range</div>
-          <div className="listItem">Service Provided</div>
+          <div className="address header">Address</div>
+          <div className="stager header">Stager</div>
+          <div className="alp header">Above Listing Price</div>
+          <div className="dom header">DOM</div>
         </div>
         {resa_list_view}
       </div>

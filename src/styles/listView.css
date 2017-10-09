@@ -1,11 +1,24 @@
 #listView {
   display: flex;
   flex-direction: row;
+  border-top: 1px solid grey;
+  margin: 3px 2%;
+  padding: 5px;
+  align-items: center;
 }
 
-.listItem {
-  margin: 0;
-  padding: 3px;
-  border: 1px solid black;
-  width: 12%;
+.address {
+  width: 35%;
+}
+
+.stager {
+  width: 25%;
+}
+
+.alp {
+  width: 25%;
+}
+
+.dom {
+  width: 15%;
 }
