@@ -1,0 +1,11 @@
+#listView {
+  display: flex;
+  flex-direction: row;
+}
+
+.listItem {
+  margin: 0;
+  padding: 3px;
+  border: 1px solid black;
+  width: 12%;
+}

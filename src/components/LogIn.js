@@ -12,10 +12,7 @@ export default class LogIn extends Component {
           <h1 id="login_title">Login</h1>
           <input type="text" name="email" placeholder="email" className="log_in_email" />
           <input type="password" name="password" placeholder="password" className="log_in_password" />
-          <div id="submit_clear_row">
-            <input type="submit"  value="Log In" className="submit_clear" />
-            <input type="reset" value="Clear" className="submit_clear" />
-          </div>
+          <input type="submit"  value="Log In" className="submit_clear" />
         </form>
       </div>
     );

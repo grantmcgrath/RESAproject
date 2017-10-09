@@ -14,7 +14,7 @@ export default class Register extends Component {
             <input type="text" name="users_email" placeholder="Email" className="users_email" />
             <input type="text" name="users_password" placeholder="Password" className="users_password" />
             <input type="text" name="users_password" placeholder="Verify Password" className="users_password" />
-            <input type="submit" value="Register" />
+            <input type="submit" value="Register" className="submit"/>
           </form>
         </div>
       </div>

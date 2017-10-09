@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ListView from "./ListView";
+import ListView from "./resa/ListView";
 
 import "../styles/global.css";
 import "../styles/resaListView.css";
@@ -31,9 +31,18 @@ componentDidMount() {
       )
     });
     return (
-      <div>
+      <div id="container">
+        <div id="listView">
+          <div className="listItem">Stager's Name</div>
+          <div className="listItem">Property Addess</div>
+          <div className="listItem">Date Listed</div>
+          <div className="listItem">Date Sold</div>
+          <div className="listItem">List Price</div>
+          <div className="listItem">Sold Price</div>
+          <div className="listItem">Listing Price Range</div>
+          <div className="listItem">Service Provided</div>
+        </div>
         {resa_list_view}
-        <p>Hello List View</p>
       </div>
     )
   }

@@ -8,6 +8,14 @@
 /* Desktop */
 @media (min-width: 415px) {
 
+#container {
+  margin: 2% auto;
 
+}
+
+#listView {
+  display: flex;
+  justify-content: center;
+}
 
 }

@@ -72,10 +72,14 @@ form {
 
 input {
   font-size: 20px;
-  width: 90%;
+  width: 260px;
   margin: 0 auto;
-  padding: 1vw;
+  padding: 10px;
   margin-bottom: 10px;
+}
+
+.submit {
+  width: 282px;
 }
 
 }
