@@ -24,8 +24,13 @@ input {
 /* Desktop */
 @media (min-width: 415px) {
 #log_in {
-  width: 300px;
-  align-items: center;
+
+  min-height: 100%;
+  min-width: 100%;
+  background-image: url("../images/login.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #log_in_form {
@@ -34,7 +39,9 @@ input {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 50% 0;
+  margin: 30% auto;
+  background-color: white;
+  border: 1px solid grey;
 }
 
 #submit_clear_row {
@@ -44,7 +51,7 @@ input {
 }
 
 #login_title {
-
+  font-size: 30px;
 }
 
 .submit_clear {

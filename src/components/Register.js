@@ -9,6 +9,7 @@ export default class Register extends Component {
         <div id="registration_form">
           <h3>Register to Login</h3>
           <form>
+            <input type="text" name="username" placeholder="Username" className="username" />
             <input type="text" name="users_first_name" placeholder="First Name" className="users_first_name" />
             <input type="text" name="users_last_name" placeholder="Last Name" className="users_last_name" />
             <input type="text" name="users_email" placeholder="Email" className="users_email" />

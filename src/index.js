@@ -13,11 +13,11 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import App from './components/App';
 import BaseLayout from './components/BaseLayout';
 import About from './components/About';
-import Contact from './components/Contact';
 import Account from './components/Account';
 import LogIn from './components/LogIn';
 import Register from './components/Register';
 import ResaListView from './components/ResaListView';
+import StagerListView from './components/StagerListView';
 
 
 
@@ -27,11 +27,12 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/About" component={About} />
-        <Route path="/Contact" component={Contact} />
         <Route path="/Account" component={Account} />
         <Route path="/LogIn" component={LogIn} />
         <Route path="/Register" component={Register} />
-        <Route path="/RESA/ListView" component={ResaListView} />
+        <Route exact path="/RESA/ListView" component={ResaListView} />
+        <Route path="/RESA/:id" component={ResaListView} />
+        <Route exact path="/Stager/ListView" component={StagerListView} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>

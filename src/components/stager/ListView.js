@@ -1,25 +1,43 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
-import "../styles/global.css";
-import "../styles/listView.css";
+import "../../styles/global.css";
+import "../../styles/listView.css";
+
+constructor(props) {
+  super(props);
+  this.state = {
+    records: []
+  }
+}
+
+componentDidMount() {
+  fetch("https://demo3459648.mockable.io/api")
+    .then(results => results.json())
+    .then(data => {
+      console.log(data.results);
+      this.setState({records: data.results});
+    })
+    .catch((error) => {console.log(error);
+    })
+};
 
 const ListView = ({app}) => {
   return (
     <div id="listView">
-      <div className="listItem">{app.stagersFirstName}</div>
-      <div className="listItem">{app.stagersLastName}</div>
-      <div className="listItem">{app.listingRealtor}</div>
-      <div className="listItem">{app.propertyAddress}</div>
-      <div className="listItem">{app.dateListed}</div>
-      <div className="listItem">{app.dateFirstOffer}</div>
-      <div className="listItem">{app.dateUnderContract}</div>
-      <div className="listItem">{app.dateSold}</div>
-      <div className="listItem">{app.listPrice}</div>
-      <div className="listItem">{app.soldPrice}</div>
-      <div className="listItem">{app.aboveListPrice}</div>
-      <div className="listItem">{app.listingPriceRange}</div>
-      <div className="listItem">{app.serviceProvided}</div>
-      <div className="listItem">{app.homeOwnersName}</div>
+      <div className="address">
+        <div>{app.propertyAddress}</div>
+        <div>{app.propertyCity}, {app.propertyState} {app.propertyZip}</div>
+      </div>
+      <div className="stager">
+        <div>{app.stagersFirstName} {app.stagersLastName}</div>
+      </div>
+      <div className="alp">
+        {app.aboveListPrice}
+      </div>
+      <div className="dom">
+        <div>{app.dom}</div>
+      </div>
     </div>
   )
 }

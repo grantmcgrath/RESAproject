@@ -47,28 +47,39 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
-    
+    padding: 2%;
   }
 
   #about_row_1 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding: 10px 0;
   }
 
   #about_row_2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px 0;
   }
 
-  #about_row_3 {
+  #ben_pic, #grant_pic {
+    width: 200px;
+    margin: 0;
+  }
+
+  #network {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 10px 0;
+    flex-direction: column;
+  }
+
+  h2 {
+    margin: 0 0 0 10px;
+    font-size: 20px;
+    color: #404046;
+  }
+
+  p {
+    color: #404046;
   }
 
   .flex_row {
@@ -77,29 +88,31 @@ p {
     max-width: 50%;
   }
 
-  .about_stager_img {
-    width: 200px;
+  .bio_info_right {
+    width: 65%;
+    padding-right: 20px;
+  }
+  .bio_info_left {
+    width: 65%;
+    padding-left: 20px;
   }
 
-  #project_description {
-  background-color: grey;
-  color: white;
-  margin: 10px;
-  padding: 10px;
+  .bio {
+    font-size: 1.7vw;
   }
 
-  .bio_pic {
-    width: 200px;
-    height: 200px;
+  .social {
+    width: 5vw;
+    padding: 0;
+    margin: 0 8px 5px;
   }
 
-  .bio_info {
-    margin: 0 10px 0 10px;
+  .ben {
+    text-align: right;
   }
 
-  #ben_pic, #grant_pic, #shontae_pic, #sim_pic {
-    width: 100px;
-    margin-left: 10px;
+  .ben_pic {
+    transform: scaleX(-1);
   }
 
 }

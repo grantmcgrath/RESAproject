@@ -48,9 +48,12 @@ input {
 }
 
 #registration_form {
-  margin: 10% auto;
-  width: 50%;
+  margin: 20% auto;
+  width: 300px;
   padding: 0;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid grey;
 }
 
 img {
@@ -59,7 +62,6 @@ img {
 }
 
 h3 {
-  margin-top: 0;
   color: black;
   font-size: 30px;
 }
@@ -76,10 +78,16 @@ input {
   margin: 0 auto;
   padding: 10px;
   margin-bottom: 10px;
+  border: 1px solid grey;
+}
+
+input:hover {
+  opacity: .5;
 }
 
 .submit {
   width: 282px;
+  margin-bottom: 0;
 }
 
 }

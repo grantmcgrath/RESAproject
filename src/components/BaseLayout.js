@@ -12,10 +12,9 @@ export default class BaseLayout extends Component {
     return (
       <div id="nav_bar">
         <nav id="desktop_nav">
-          <img src={require("../images/logo.png")} alt="Stage Hand Logo" />
+          <img src={require("../images/trans_logo.png")} alt="Stage Hand Logo" />
           <div className="nav_bar"><NavLink to="/" className="nav_link">Home</NavLink></div>
           <div className="nav_bar"><NavLink to="/About" className="nav_link">About Us</NavLink></div>
-          <div className="nav_bar"><NavLink to="/Contact" className="nav_link">Contact Us</NavLink></div>
           <div className="nav_bar"><NavLink to="/Account" className="nav_link">Account</NavLink></div>
           <div className="filler"></div>
           <div className="nav_bar_lower"><NavLink to="/LogIn" className="nav_link">Log In</NavLink></div>
