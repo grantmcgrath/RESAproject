@@ -9,25 +9,26 @@ class ResaListView extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      records: []
+      data: []
     }
   }
 
 componentDidMount() {
-  fetch("https://demo3459648.mockable.io/api")
+  fetch("https://stagehandapi.herokuapp.com/resa/")
     .then(results => results.json())
     .then(data => {
-      console.log(data.results);
-      this.setState({records: data.results});
+      // console.log(data.data);
+      this.setState({data: data.data});
     })
     .catch((error) => {console.log(error);
     })
 };
 
   render() {
-    const resa_list_view = this.state.records.map((app) => {
+    console.log(this.state.data);
+    const resa_list_view = this.state.data.map((datum) => {
       return (
-        <ListView app={app} key={app.id} />
+        <ListView app={datum} key={datum.id} />
       )
     });
     return (
