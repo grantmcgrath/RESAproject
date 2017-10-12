@@ -58,7 +58,7 @@ input {
   width: 282px;
 }
 
-.log_in_email, .log_in_password {
+.log_in_username, .log_in_password {
   width: 260px;
   padding: 10px;
 }
