@@ -5,38 +5,39 @@ import ListView from "./stager/ListView";
 import "../styles/global.css";
 import "../styles/resaListView.css";
 
-class ResaListView extends Component {
+class StagerListView extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      records: []
+      data: []
     }
   }
 
 componentDidMount() {
-  fetch("https://demo3459648.mockable.io/api")
+  fetch("https://stagehandapi.herokuapp.com/stager/")
     .then(results => results.json())
     .then(data => {
-      console.log(data.results);
-      this.setState({records: data.results});
+      console.log(data);
+      console.log(data.data);
+      this.setState({data: data.data});
     })
     .catch((error) => {console.log(error);
     })
 };
 
   render() {
-    const stager_list_view = this.state.records.map((app) => {
+    const stager_list_view = this.state.data.map((datum) => {
       return (
-        <ListView app={app} key={app.id} />
+        <ListView app={datum} key={datum.id} />
       )
     });
     return (
       <div id="container">
         <div className="smallStats">
-          <div className="stadium"></div>
-          <div className="stadium"></div>
-          <div className="stadium"></div>
-          <div className="stadium"></div>
+          <div className="stadium">Average Days on Market<br />69</div>
+          <div className="stadium">Average Days on Market with Staging<br />16</div>
+          <div className="stadium">Average Price Sold Above Listing Price<br />$26,462</div>
+          <div className="stadium">Average Percentafe Sold Above Listing Price<br />107.23%</div>
         </div>
         <div id="listView">
           <div className="address header">Address</div>
@@ -50,4 +51,4 @@ componentDidMount() {
   }
 }
 
-export default ResaListView;
+export default StagerListView;
